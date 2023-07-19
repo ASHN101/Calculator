@@ -93,13 +93,24 @@
             // tbxInput1
             // 
             this.tbxInput1.Location = new System.Drawing.Point(31, 44);
+            this.tbxInput1.Maximum = new decimal(new int[] {
+            -1486618624,
+            232830643,
+            0,
+            0});
             this.tbxInput1.Name = "tbxInput1";
             this.tbxInput1.Size = new System.Drawing.Size(242, 29);
             this.tbxInput1.TabIndex = 7;
+            this.tbxInput1.ValueChanged += new System.EventHandler(this.tbxInput1_ValueChanged);
             // 
             // tbxInput2
             // 
             this.tbxInput2.Location = new System.Drawing.Point(279, 44);
+            this.tbxInput2.Maximum = new decimal(new int[] {
+            -1486618624,
+            232830643,
+            0,
+            0});
             this.tbxInput2.Name = "tbxInput2";
             this.tbxInput2.Size = new System.Drawing.Size(242, 29);
             this.tbxInput2.TabIndex = 8;
@@ -118,7 +129,7 @@
             this.Controls.Add(this.btnMult);
             this.Controls.Add(this.lblAnswer);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.tbxInput1)).EndInit();

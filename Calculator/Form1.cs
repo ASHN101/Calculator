@@ -49,5 +49,10 @@ namespace Calculator
             double answer = num1 - num2;
             lblAnswer.Text = "= " + answer.ToString();
         }
+
+        private void tbxInput1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
